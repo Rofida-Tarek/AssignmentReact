@@ -1,0 +1,26 @@
+h4::after{
+    content: '';
+background-color: black !important;
+position: absolute;
+width: 80px;
+height: 4px;
+top: 40%;
+;
+right: 450px;
+}
+h4::before{
+    content: '';
+background-color: black !important;
+position: absolute;
+width: 80px;
+height: 4px;
+top: 40%;
+
+left:450px;
+}
+.btnn{
+    background-color: #33BD9C;
+    width: fit-content;
+    color: white;
+    margin-top: 10px;
+}

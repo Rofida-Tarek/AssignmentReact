@@ -1,0 +1,30 @@
+.AboutComponent{
+    background-color: #33BD9C;
+   height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+h5::after{
+    content: ' ';
+    margin-left: 10px;
+    background-color: white;
+    width: 80px;
+    height: 4px;
+    position: absolute;
+      left: 430px;
+      top: 40%;
+}
+h5::before{
+    content: ' ';
+    margin-right: 10px;
+    background-color: white;
+    width: 80px;
+    height: 4px;
+    position: absolute;
+    right: 430px;
+    top: 40%;
+}
+

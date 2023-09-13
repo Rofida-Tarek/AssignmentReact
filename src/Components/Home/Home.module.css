@@ -1,0 +1,27 @@
+.home{
+    background-color: #33BD9C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h5::after{
+    content: ' ';
+    background-color: white;
+    height: 4px;
+    width: 80px;
+    position: absolute;
+ top:25%;
+ left: 0px;
+ margin-left: 40px;
+}
+.h5::before{
+    content: ' ';
+    background-color: white;
+    height: 4px;
+    width: 80px;
+   right: 0px;
+    position: absolute;
+    margin-right: 40px;
+    top:25%;
+ 
+}

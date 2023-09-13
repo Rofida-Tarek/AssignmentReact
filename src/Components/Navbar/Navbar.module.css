@@ -1,0 +1,30 @@
+nav{
+    background-color: #2C3E50;
+    padding: 24px !important;
+    position:fixed;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    z-index: 22;
+    
+}
+/* .active :hover{
+    background-color: aquamarine;
+    border: 1px white solid;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+} */
+
+.navitem:focus{
+    background-color: #34BD9C;
+    padding: 10px;
+    border: 1px white solid;
+    /* border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40p */
+}
